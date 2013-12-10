@@ -24,6 +24,7 @@
 		?>
 	</form>
 </body>
+
 	
 	<style type="text/css">
 		div#create-post {
