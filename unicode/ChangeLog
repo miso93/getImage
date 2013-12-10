@@ -1,0 +1,27 @@
+2008-08-26 - v0.1.2
+	* This release resolves an issue with Unicode_String::ToLower(). 
+	  A number of minor inconveniences (such as errors in the 
+	  documentation) were also fixed. All unquoted barewords were 
+	  also removed, to avoid E_STRICT errors. This version requires 
+	  PHP 5.
+	  
+2006-04-26 - v0.1.1
+	* This release updates the block database and introduces phpdoc
+	  documentation.
+
+2006-04-07 - v0.1.0
+	* There was a bug with XML/HTML encoding, this is fixed now.
+
+2006-02-06 - v0.0.3
+	* This release is compatible with PHP 4.x.
+
+2005-12-14 - v0.0.2
+	* This release adds more string-like functions to Unicode_String (eg
+	  explode(), strpos(), trim(), reverse(), cmp()). Unicode_Character can
+	  now includes a method to list the homoglyphs for a specific character.
+
+2005-11-01 - v0.0.1
+	* Initial release.
+
+--
+$Id: ChangeLog,v 1.6 2008/08/26 10:04:21 gavin Exp $
